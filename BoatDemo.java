@@ -2,11 +2,13 @@ public class BoatDemo {
 
     /**
     * This class demonstrates the Boat.java class.
+    * MIN_PASSENGER calculation by Dr Edmund Sadgrove, University of New England, Armidale, esadgro2@une.edu.au.
+
     */
 
    private static final int MIN_PASSENGERS = 36;  // The castAway method will be called with the passenger number being 36.
    public static void main(String[] args) throws Exception{
-		
+        
         System.out.print("Boat One\n");
         try{
             Boat boatExampleOne = new Boat(-1.0,2.0,1.0);
