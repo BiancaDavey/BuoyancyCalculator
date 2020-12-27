@@ -2,7 +2,7 @@ public class BoatDemo {
 
     /**
     * This class demonstrates the Boat.java class.
-    * MIN_PASSENGER set and calculated by Dr Edmund Sadgrove, University of New England, Armidale, esadgro2@une.edu.au.
+    * MIN_PASSENGER set and demonstration calculated by Dr Edmund Sadgrove, University of New England, Armidale, esadgro2@une.edu.au.
 
     */
 
