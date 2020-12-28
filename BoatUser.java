@@ -21,7 +21,7 @@ public class BoatUser {
             double height = keyboard.nextDouble();
 
             Boat newBoat = new Boat(width, length, height);
-            newBoat.castAway(MIN_PASSENGERS);
+            newBoat.calculateBuoyancy(MIN_PASSENGERS);
             System.out.println("The boat cast away with " + MIN_PASSENGERS + " passengers.");
         } catch (IllegalArgumentException e) {
             System.out.println("The boat could not cast away: " + e.getMessage());
